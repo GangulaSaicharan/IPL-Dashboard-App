@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.team-card-container {
+  background-color: #ffffff33;
+  display: flex;
+  align-items: center;
+  border: 2px solid #ffffff;
+  width: 400px;
+  height: 200px;
+  padding: 5px;
+}
+
+li {
+  margin: 10px;
+  list-style-type: none;
+}
+.team-logo {
+  width: 30%;
+}
+.team-heading {
+  margin-left: 5px;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+.item-link {
+  text-decoration: none;
+}

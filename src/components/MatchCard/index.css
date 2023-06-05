@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.match-card-container {
+  flex-grow: 1;
+  background-color: #1e293b;
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #ffffff;
+}
+
+li {
+  list-style-type: none;
+}
+.match-card-image {
+  width: 200px;
+  height: 200px;
+}
+.match-card-competing-team-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.won {
+  font-weight: bold;
+  color: #4f5db0;
+  font-size: 30px;
+}
+.loss {
+  font-weight: bold;
+  color: #da237b;
+  font-size: 30px;
+}
+.result {
+  text-align: center;
+}
